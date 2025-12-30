@@ -1,5 +1,5 @@
 import * as debug from '../../debug'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 
 /**
  * set ACL

@@ -1,4 +1,4 @@
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import { getRootIfPreferencesExist } from '../../../../src/utils/keyHelpers/otherHelpers'
 import { NamedNode } from 'rdflib'
 

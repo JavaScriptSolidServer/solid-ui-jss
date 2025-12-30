@@ -4,7 +4,7 @@
  *
  */
 import * as debug from '../debug'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import ns from '../ns'
 import * as $rdf from 'rdflib' // pull in first avoid cross-refs
 

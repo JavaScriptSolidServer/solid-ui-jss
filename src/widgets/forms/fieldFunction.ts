@@ -1,5 +1,5 @@
 import { Node } from 'rdflib'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import { debug } from '../../log'
 import { errorMessageBlock } from '../error'
 

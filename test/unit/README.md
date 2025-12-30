@@ -35,7 +35,7 @@ In `solid-ui`, we do not currently follow a MVC pattern, so testing is not alway
 ##### Load
 In SolidOS, we use [`rdflib.js`](https://github.com/linkeddata/rdflib.js/) to work with LinkedData. First, you load the document you need to work with into the store. Once the document is loaded, you can access the data by using additional methods on the store such as `any`, `each`, etc. Since the data that gets returned will need to be mocked, `load` doesn't need to do anything. You need to put the following into your file to mock the `load` method:
 ```
-import { store } from 'solid-logic'      /* at the top of your file */
+import { store } from 'solid-logic-jss'      /* at the top of your file */
 ...
 store.fetcher.load = jest.fn().mockImplementation(() => {})
 ```

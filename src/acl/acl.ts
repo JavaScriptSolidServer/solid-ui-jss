@@ -6,7 +6,7 @@
  */
 
 import ns from '../ns'
-import { solidLogicSingleton, ACL_LINK } from 'solid-logic'
+import { solidLogicSingleton, ACL_LINK } from 'solid-logic-jss'
 import * as utils from '../utils'
 import { AgentMapMap, AgentMapUnion, ComboList } from './types'
 import * as debug from '../debug'

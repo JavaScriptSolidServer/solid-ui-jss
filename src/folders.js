@@ -5,7 +5,7 @@
 
 import * as debug from './debug'
 import { icons } from './iconBase'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import ns from './ns'
 import * as rdf from 'rdflib' // pull in first avoid cross-refs
 import { style } from './style'

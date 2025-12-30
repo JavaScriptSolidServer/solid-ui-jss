@@ -3,7 +3,7 @@
     work in solid-ui by adjusting where imported functions are found.
  */
 import { LiveStore, NamedNode } from 'rdflib'
-import { authn, authSession } from 'solid-logic'
+import { authn, authSession } from 'solid-logic-jss'
 import { style } from '../style'
 import { getName, getPod, getPodOwner } from '../utils/headerFooterHelpers'
 

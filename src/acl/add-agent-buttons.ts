@@ -4,7 +4,7 @@
  */
 
 import { NamedNode, Store } from 'rdflib'
-import { AuthenticationContext } from 'solid-logic'
+import { AuthenticationContext } from 'solid-logic-jss'
 import * as debug from '../debug'
 import { icons } from '../iconBase'
 import { ensureLoadedProfile } from '../login/login'

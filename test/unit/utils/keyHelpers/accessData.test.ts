@@ -1,4 +1,4 @@
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import { pubKeyUrl, privKeyUrl } from '../../../../src/utils/keyHelpers/accessData'
 import { NamedNode } from 'rdflib'
 

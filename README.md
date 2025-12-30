@@ -1,14 +1,14 @@
-# solid-ui
+# solid-ui-jss
 
-[![NPM Package](https://img.shields.io/npm/v/solid-ui.svg)](https://www.npmjs.com/package/solid-ui)
+[![NPM Package](https://img.shields.io/npm/v/solid-ui-jss.svg)](https://www.npmjs.com/package/solid-ui-jss)
 
-User Interface widgets and utilities for Solid (solid-ui)
+User Interface widgets and utilities for Solid (JSS variant with minimal solid-oidc authentication)
 
 These are HTML5 widgets which connect to a solid store. Building blocks for solid-based apps.
 Vanilla JS.  Includes large widgets like chat, table, matrix, form fields, and small widgets.
 
-See [Solid-Ui Storybook](http://solidos.github.io/solid-ui/examples/storybook/) for UI widgets.
-See [Solid-UI API](https://solidos.github.io/solid-ui/docs/api/) for UI functions.
+See [Solid-Ui Storybook](http://javascriptsolidserver.github.io/solid-ui-jss/examples/storybook/) for UI widgets.
+See [Solid-UI API](https://javascriptsolidserver.github.io/solid-ui-jss/docs/api/) for UI functions.
 See [Forms introduction](./docs/FormsReadme.md) for UI vocabulary implementation.
 
 ## Table of Contents
@@ -30,15 +30,15 @@ always appreciated.
 ## Install via npm
 
 ```sh
-npm install solid-ui rdflib solid-logic
+npm install solid-ui-jss rdflib solid-logic-jss
 ```
 
 Then import in your JavaScript/TypeScript code:
 
 ```js
-import * as UI from 'solid-ui'
+import * as UI from 'solid-ui-jss'
 import * as $rdf from 'rdflib'
-import * as SolidLogic from 'solid-logic'
+import * as SolidLogic from 'solid-logic-jss'
 
 // Example: Create a button
 const button = UI.widgets.button(
@@ -52,7 +52,7 @@ document.body.appendChild(button)
 
 ## Use Directly in a Browser
 
-Solid-UI provides both **UMD** and **ESM** bundles for direct browser usage. Both bundles externalize `rdflib` and `solid-logic`, which must be loaded separately.
+Solid-UI-JSS provides both **UMD** and **ESM** bundles for direct browser usage. Both bundles externalize `rdflib` and `solid-logic-jss`, which must be loaded separately.
 
 ### Available Files
 
@@ -79,10 +79,10 @@ Load via `<script>` tags and access through global variables `window.$rdf`, `win
 
   <!-- Load dependencies first -->
   <script src="https://cdn.jsdelivr.net/npm/rdflib/dist/rdflib.min.js"></script>
-  <script src="https://unpkg.com/solid-logic/dist/solid-logic.min.js"></script>
-  
-  <!-- Load solid-ui UMD bundle -->
-  <script src="https://unpkg.com/solid-ui/dist/solid-ui.min.js"></script>
+  <script src="https://unpkg.com/solid-logic-jss/dist/solid-logic.min.js"></script>
+
+  <!-- Load solid-ui-jss UMD bundle -->
+  <script src="https://unpkg.com/solid-ui-jss/dist/solid-ui.min.js"></script>
 
   <script>
     // Access via global variables
@@ -196,8 +196,8 @@ Use import maps for cleaner module specifiers:
   {
     "imports": {
       "rdflib": "https://esm.sh/rdflib",
-      "solid-logic": "https://esm.sh/solid-logic@4.0.1",
-      "solid-ui": "https://esm.sh/solid-ui@3.0.1"
+      "solid-logic-jss": "https://esm.sh/solid-logic-jss@4.1.0",
+      "solid-ui-jss": "https://esm.sh/solid-ui-jss@3.0.2"
     }
   }
   </script>
@@ -205,8 +205,8 @@ Use import maps for cleaner module specifiers:
   <script type="module">
     // Use clean bare specifiers
     import * as $rdf from 'rdflib'
-    import * as SolidLogic from 'solid-logic'
-    import * as UI from 'solid-ui'
+    import * as SolidLogic from 'solid-logic-jss'
+    import * as UI from 'solid-ui-jss'
 
     const app = document.getElementById('app')
     
@@ -264,7 +264,7 @@ npm run storybook
 
 If there is no story for the component yet, add a new one to `./src/stories`.
 
-When you want to test the component within a solid-pane, you can use the [development mode of solid-panes](https://github.com/solidos/solid-panes#development).
+When you want to test the component within a solid-pane, you can use the [development mode of solid-panes-jss](https://github.com/JavaScriptSolidServer/solid-panes-jss#development).
 
 ## Adding Tests
 
@@ -277,7 +277,7 @@ or with coverage
 npm run test-coverage
 ```
 The following document gives guidance on how to add and perform testing in solid-ui.
-[Testing in solid-ui](https://github.com/SolidOS/solid-ui/blob/18070a02fa8159a2b83d9503ee400f8e046bf1f6/test/unit/README.md)
+[Testing in solid-ui-jss](./test/unit/README.md)
 
 ## GitHub Pages
 
@@ -285,4 +285,8 @@ The following document gives guidance on how to add and perform testing in solid
 
 ## Further documentation
 
-- [Some code know-how](https://github.com/SolidOS/solidos/wiki/2.-Solid-UI-know-how)
+- [Some code know-how](https://github.com/JavaScriptSolidServer/solid-ui-jss/wiki/Solid-UI-know-how)
+
+## Credits
+
+This is a fork of [solidos/solid-ui](https://github.com/solidos/solid-ui) with the authentication replaced from `@inrupt/solid-client-authn-browser` to the minimal [solid-oidc](https://github.com/JavaScriptSolidServer/solid-oidc) library via [solid-logic-jss](https://github.com/JavaScriptSolidServer/solid-logic-jss).

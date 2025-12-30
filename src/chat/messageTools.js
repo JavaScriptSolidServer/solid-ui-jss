@@ -17,7 +17,7 @@ import * as rdf from 'rdflib' // pull in first avoid cross-refs
 import * as utils from '../utils'
 import * as widgets from '../widgets'
 import { renderBookmarksButton } from './bookmarks'
-import { authn, store } from 'solid-logic'
+import { authn, store } from 'solid-logic-jss'
 
 import { allVersions, mostRecentVersion, isDeleted } from './chatLogic'
 import { switchToEditor } from './message'

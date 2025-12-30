@@ -1,5 +1,5 @@
 import { generatePrivateKey, generatePublicKey, getPublicKey } from '../../../src/chat/keys'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import { NamedNode } from 'rdflib'
 import * as helpers from '../../../src/utils/keyHelpers/accessData'
 const PRIV_KEY = 'a11bc5d2eee6cdb3b37f5473a712cad905ccfb13fb2ccdbf1be0a1ac4fdc7d2a'

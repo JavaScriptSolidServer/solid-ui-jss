@@ -1,4 +1,4 @@
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import ns from '../../ns'
 import { NamedNode } from 'rdflib'
 // Will rename this file later. We will probably be using solid-logic anyway

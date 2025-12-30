@@ -1,7 +1,7 @@
 /* Form field for doing autocompleete
  */
 import ns from '../../../ns'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import * as widgets from '../../../widgets'
 import { style } from '../../../style'
 import { renderAutocompleteControl } from './autocompleteBar'

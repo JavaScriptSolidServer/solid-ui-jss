@@ -5,7 +5,7 @@
 */
 
 import { Literal, NamedNode, parse } from 'rdflib'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import * as debug from '../../../debug'
 import ns from '../../../ns'
 import { defaultPreferredLanguages, getPreferredLanguages } from './language'

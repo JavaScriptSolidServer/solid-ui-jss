@@ -5,7 +5,7 @@
  */
 import { IndexedFormula, NamedNode } from 'rdflib'
 import { icons } from '../index'
-import { authn, authSession } from 'solid-logic'
+import { authn, authSession } from 'solid-logic-jss'
 import { loginStatusBox } from '../login/login'
 // import { loginStatusBox, authSession, currentUser } from '../authn/authn'
 import * as widgets from '../widgets'

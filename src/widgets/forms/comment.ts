@@ -1,4 +1,4 @@
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import ns from '../../ns'
 import { mostSpecificClassURI } from './fieldFunction'
 import { fieldParams } from './fieldParams'

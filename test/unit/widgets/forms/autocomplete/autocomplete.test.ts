@@ -9,7 +9,7 @@ import {
   autocompleteField
 } from '../../../../../src/widgets/forms/autocomplete/autocompleteField'
 import ns from '../../../../../src/ns'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 // import { textInputStyle } from '../../../../../src/style'
 import {
 //  findByAltText,

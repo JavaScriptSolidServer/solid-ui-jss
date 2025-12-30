@@ -2,7 +2,7 @@ import { cancelButton } from './widgets'
 import { label } from './utils'
 import { NamedNode } from 'rdflib'
 import { style } from './style'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 
 /**
  * @ignore

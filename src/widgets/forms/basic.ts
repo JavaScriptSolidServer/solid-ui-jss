@@ -1,5 +1,5 @@
 import { BlankNode, Literal, NamedNode, Node, st, Store, Variable } from 'rdflib'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import ns from '../../ns'
 import { style } from '../../style'
 import styleConstants from '../../styleConstants'

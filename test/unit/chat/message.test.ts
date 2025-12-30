@@ -5,7 +5,7 @@ import {
   creatorAndDateHorizontal,
   renderMessageRow
 } from '../../../src/chat/message'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 
 const bindings = {
   '?creator': {

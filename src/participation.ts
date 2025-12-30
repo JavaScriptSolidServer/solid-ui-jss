@@ -11,7 +11,7 @@ import { lightColorHash } from './pad'
 import { log } from './debug'
 import { style } from './style'
 import styleConstants from './styleConstants'
-import { solidLogicSingleton, authn } from 'solid-logic'
+import { solidLogicSingleton, authn } from 'solid-logic-jss'
 
 type ParticipationOptions = {
   deleteFunction?: () => {}

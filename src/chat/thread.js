@@ -4,7 +4,7 @@
  */
 
 import { icons } from '../iconBase'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import { media } from '../media/index'
 import ns from '../ns'
 import * as login from '../login/login'

@@ -4,7 +4,7 @@
  */
 // import { findBookmarkDocument } from './bookmarks'
 import * as $rdf from 'rdflib' // pull in first avoid cross-refs
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import * as debug from '../debug'
 import { icons } from '../iconBase'
 import ns from '../ns'

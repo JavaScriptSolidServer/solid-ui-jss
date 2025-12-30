@@ -3,7 +3,7 @@
  */
 
 import { DataBrowserContext, NewPaneOptions, PaneDefinition } from 'pane-registry'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import * as debug from '../debug'
 import { icons } from '../iconBase'
 import { ensureLoadedProfile, selectWorkspace } from '../login/login'

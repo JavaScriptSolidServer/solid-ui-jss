@@ -3,7 +3,7 @@ import { findBookmarkDocument, renderBookmarksButton, toggleBookmark } from '../
 import { NamedNode, Namespace } from 'rdflib'
 import { clearStore } from '../helpers/clearStore'
 import { ns } from '../../../src/'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 
 const store = solidLogicSingleton.store
 const BOOK = Namespace('http://www.w3.org/2002/01/bookmark#')

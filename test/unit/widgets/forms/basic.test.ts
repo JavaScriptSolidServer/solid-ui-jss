@@ -8,7 +8,7 @@ import {
 import ns from '../../../../src/ns'
 import { style } from '../../../../src/style'
 import { clearStore } from '../../helpers/clearStore'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 
 silenceDebugMessages()
 afterEach(clearStore)

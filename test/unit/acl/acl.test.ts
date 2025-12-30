@@ -1,4 +1,4 @@
-import { ACL_LINK, solidLogicSingleton } from 'solid-logic'
+import { ACL_LINK, solidLogicSingleton } from 'solid-logic-jss'
 import { silenceDebugMessages } from '../helpers/debugger'
 import {
   ACLbyCombination,

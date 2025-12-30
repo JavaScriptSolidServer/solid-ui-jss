@@ -1,7 +1,7 @@
 import { silenceDebugMessages } from '../../helpers/debugger'
 import { namedNode } from 'rdflib'
 import ns from '../../../../src/ns'
-import { solidLogicSingleton, store } from 'solid-logic'
+import { solidLogicSingleton, store } from 'solid-logic-jss'
 
 /*
 import {

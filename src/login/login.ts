@@ -41,7 +41,7 @@ import {
   solidLogicSingleton,
   UnauthorizedError,
   WebOperationError
-} from 'solid-logic'
+} from 'solid-logic-jss'
 import * as debug from '../debug'
 import { style } from '../style'
 import { alert } from '../log'

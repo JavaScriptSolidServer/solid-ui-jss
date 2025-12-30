@@ -1,6 +1,6 @@
 import ns from '../../ns'
 import { Node } from 'rdflib'
-import { store } from 'solid-logic'
+import { store } from 'solid-logic-jss'
 import { fieldParams } from './fieldParams'
 
 import { mostSpecificClassURI } from './fieldFunction'

@@ -9,7 +9,7 @@ import { Namespace, NamedNode, st, IndexedFormula } from 'rdflib'
 import { newThing, errorMessageBlock } from './widgets'
 import { beep } from './utils'
 import { log } from './debug'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 import { style } from './style'
 export { renderParticipants, participationObject, manageParticipation, recordParticipation } from './participation'
 

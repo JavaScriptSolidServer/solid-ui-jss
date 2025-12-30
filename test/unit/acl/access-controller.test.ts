@@ -2,7 +2,7 @@ import { silenceDebugMessages } from '../helpers/debugger'
 import { instantiateAccessController } from '../helpers/instantiateAccessController'
 import { AccessController } from '../../../src/acl/access-controller'
 import { JSDOM } from 'jsdom'
-import { solidLogicSingleton } from 'solid-logic'
+import { solidLogicSingleton } from 'solid-logic-jss'
 
 const store = solidLogicSingleton.store
 

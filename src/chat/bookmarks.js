@@ -12,7 +12,7 @@ import * as $rdf from 'rdflib' // pull in first avoid cross-refs
 import { style } from '../style'
 import * as utils from '../utils'
 import * as widgets from '../widgets'
-import { store, createTypeIndexLogic, authn } from 'solid-logic'
+import { store, createTypeIndexLogic, authn } from 'solid-logic-jss'
 import { findAppInstances } from '../login/login'
 
 const UI = { icons, ns, media, pad, style, utils, widgets }
