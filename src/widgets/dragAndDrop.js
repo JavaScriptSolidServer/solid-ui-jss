@@ -9,7 +9,7 @@
  * desktop. You may want to upload it into the pod.
  */
 import * as debug from '../debug'
-import * as mime from 'mime-types'
+import * as mime from '../utils/mimeTypes'
 import { style } from '../style'
 
 /* global FileReader alert */
